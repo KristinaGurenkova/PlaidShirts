@@ -11,3 +11,4 @@ C:\Users\user\source\repos\PlaidShirts\Shop\bin\Debug\EntityFramework.xml
 C:\Users\user\source\repos\PlaidShirts\Shop\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\user\source\repos\PlaidShirts\Shop\bin\Debug\ru\EntityFramework.resources.dll
 C:\Users\user\source\repos\PlaidShirts\Shop\obj\Debug\Shop.csproj.Up2Date
+C:\Users\user\source\repos\PlaidShirts\Shop\bin\Debug\Shop.xml
