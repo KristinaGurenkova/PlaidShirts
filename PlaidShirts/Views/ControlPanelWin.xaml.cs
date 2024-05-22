@@ -63,7 +63,6 @@ namespace PlaidShirts.Views
 				MessageBox.Show("Не все данные были введены корректно");
 			}
 		}
-
 		private void Change_Click(object sender, RoutedEventArgs e)
 		{
 			logger.Action("Нажата кнопка ''Изменить''");
@@ -75,7 +74,6 @@ namespace PlaidShirts.Views
 				p.idManufacturer = 1;
 				p.price = Convert.ToInt32(priceTxt.Text);
 				p.count = Convert.ToInt32(countProduct.Text);
-
 				shirtsEntities.SaveChanges();
 			}
 			catch
@@ -84,7 +82,6 @@ namespace PlaidShirts.Views
 			}
 			dataGridProducts.ItemsSource = shirtsEntities.Product.ToList();
 		}
-
 		private void Delete_Click(object sender, RoutedEventArgs e)
 		{
 			logger.Action("Нажата кнопка ''Удалить''");
@@ -110,7 +107,7 @@ namespace PlaidShirts.Views
 			{
 				if (x.count == 0)
 				{
-					MessageBox.Show("Весь товар на в зале");
+					MessageBox.Show("Весь товар в зале");
 				}
 				else
 				{
@@ -146,7 +143,6 @@ namespace PlaidShirts.Views
 			Close();
 			mainWindow.Show();
 		}
-
 		private void dataGridProducts_SelectedCellsChanged(object sender, SelectedCellsChangedEventArgs e)
 		{
 			try
@@ -157,8 +153,7 @@ namespace PlaidShirts.Views
 				barcodeTxt.Text = p.barcode.ToString();
 				countProduct.Text = p.count.ToString();
 			}
-			catch
-			{}
+			catch {}
 		}
 	}
 }

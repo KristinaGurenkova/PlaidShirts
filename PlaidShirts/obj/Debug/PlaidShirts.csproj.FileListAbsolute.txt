@@ -33,3 +33,4 @@ C:\Users\user\source\repos\PlaidShirts\PlaidShirts\obj\Debug\Views\ControlPanelW
 C:\Users\user\source\repos\PlaidShirts\PlaidShirts\obj\Debug\Views\ControlPanelWin.baml
 C:\Users\user\source\repos\PlaidShirts\PlaidShirts\obj\Debug\Views\ListHall.g.cs
 C:\Users\user\source\repos\PlaidShirts\PlaidShirts\obj\Debug\Views\ListHall.baml
+C:\Users\user\source\repos\PlaidShirts\PlaidShirts\bin\Debug\Shop.xml

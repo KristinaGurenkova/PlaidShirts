@@ -100,7 +100,6 @@ namespace PlaidShirts
 			}
 			dataGridProducts.ItemsSource = shirtsEntities.Product.ToList();
 		}
-
 		private void ListHall_Click(object sender, RoutedEventArgs e)
 		{
 			logger.Action("Нажата кнопка ''Список товаров в зале'' ");

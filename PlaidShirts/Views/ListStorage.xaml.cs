@@ -27,7 +27,6 @@ namespace PlaidShirts.Views
 			InitializeComponent();
 			dataGridProducts.ItemsSource = storeOperations.InputStorage();
 		}
-
 		private void Back_Click(object sender, RoutedEventArgs e)
 		{
 			logger.Action("Нажата кнопка ''На главную страницу'' ");

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PlaidShirts.Views"
         mc:Ignorable="d"
-        Title="ListStorage" Height="450" Width="800" ResizeMode="NoResize">
+        Title="Склад" Height="450" Width="800" ResizeMode="NoResize">
     <Grid Background="Beige">
         <DataGrid Margin="0,64,210,0" x:Name="dataGridProducts" AutoGenerateColumns="False"  Background="Beige" >
             <DataGrid.Columns>

@@ -102,7 +102,7 @@
     <Compile Include="db\Type.cs">
       <DependentUpon>PlaidShirtsModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="ShopTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

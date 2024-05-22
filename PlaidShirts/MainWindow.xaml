@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PlaidShirts"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" ResizeMode="NoResize">
+        Title="Главная страница" Height="450" Width="800" ResizeMode="NoResize">
     <Grid Background="Beige">
         <DataGrid Margin="0,64,235,0" x:Name="dataGridProducts" AutoGenerateColumns="False"  Background="Beige" >
             <DataGrid.ContextMenu>
@@ -26,7 +26,6 @@
                 <DataGridTextColumn Header="Производитель" Binding="{Binding Path=Manufacturer.nameManufacturer}" x:Name="manufacturer"/>
                 <DataGridTextColumn Header="Тип" Binding="{Binding Path=Type.nameType}" x:Name="type"/>
                 <DataGridTextColumn Header="Количество" Binding="{Binding Path=count}" x:Name="count"/>
-                <DataGridTextColumn Header="Баркод" Binding="{Binding Path=barcode}" x:Name="barcode"/>
             </DataGrid.Columns>
         </DataGrid>
         <TextBox Background="#1E90FF" HorizontalAlignment="Center" Text=" Plaid shirts: emphasize your personality" VerticalAlignment="Top" Width="800" Height="40" FontSize="22"/>

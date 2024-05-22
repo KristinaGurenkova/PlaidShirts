@@ -32,7 +32,7 @@ namespace PlaidShirts.Views
 		public void Update()
 		{
 			dataGridProducts.ItemsSource = shirtsEntities.Basket.ToList();
-			sumTxt.Text = "К формлению:  " + Counting();
+			sumTxt.Text = " К формлению:  " + Counting();
 		}
 		private void TicketBt_Click(object sender, RoutedEventArgs e)
 		{
@@ -52,7 +52,6 @@ namespace PlaidShirts.Views
 			}
 			return sum.ToString();
 		}
-
 		private void Delete_Click(object sender, RoutedEventArgs e)
 		{
 			logger.Action("Нажата кнопка ''Удалить из корзины''");
@@ -83,7 +82,6 @@ namespace PlaidShirts.Views
 			}
 			Update();
 		}
-
 		private void Back_Click(object sender, RoutedEventArgs e)
 		{
 			logger.Action("Нажата кнопка ''На главную страницу''");

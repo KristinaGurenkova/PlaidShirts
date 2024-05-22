@@ -28,7 +28,6 @@ namespace PlaidShirts.Views
 			dataGridProducts.ItemsSource = shirtsEntities.Hall.ToList();
 			dataGridProducts.IsReadOnly = true;
 		}
-
 		private void Back_Click(object sender, RoutedEventArgs e)
 		{
 			logger.Action("Нажата кнопка ''На главную страницу''");

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PlaidShirts.Views"
         mc:Ignorable="d"
-        Title="ControlPanelWin" Height="450" Width="800" ResizeMode="NoResize">
+        Title="Панель управления" Height="450" Width="800" ResizeMode="NoResize">
     <Grid Background="Beige">
         <DataGrid Margin="0,64,235,155" x:Name="dataGridProducts" AutoGenerateColumns="False"  Background="Beige" SelectedCellsChanged="dataGridProducts_SelectedCellsChanged" >
             <DataGrid.Columns>
@@ -18,7 +18,7 @@
                 <DataGridTextColumn Header="Баркод" Binding="{Binding Path=barcode}" x:Name="barcode"/>
             </DataGrid.Columns>
         </DataGrid>
-        <TextBox Background="#1E90FF" HorizontalAlignment="Right" Text=" Панель управления" VerticalAlignment="Top" Width="800" Height="40" FontSize="22"/>
+        <TextBox Background="#1E90FF" HorizontalAlignment="Right" Text="  Панель управления" VerticalAlignment="Top" Width="800" Height="40" FontSize="22"/>
         <TextBox Background="#87CEFA" HorizontalAlignment="Center" Text=" Список товаров" VerticalAlignment="Top" Width="800" Height="24" FontSize="15" Margin="0,40,0,0"/>
         <StackPanel Margin="565,64,0,0">
             <Button Content="Добавить товар" Margin="0 10 0 0" FontWeight="Bold" x:Name="Add" Height="30" Width="189" Click="Add_Click">

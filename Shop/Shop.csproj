@@ -51,7 +51,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="StoreOperations.cs" />
     <Compile Include="DataBase\Basket.cs">
       <DependentUpon>PlaidShirtsModel.tt</DependentUpon>
     </Compile>
