@@ -38,49 +38,49 @@
 # Скриншоты приложения:
 
 <p align="center">
-  <img <img src="https://github.com/KristinaGurenkova/PlaidShirts/tree/main/Screenshots/MainWindow.png">
+  <img <img src="https://github.com/KristinaGurenkova/PlaidShirts/blob/main/Screenshots/MainWindow.png">
 </br>Главная страница
 </br> </br> </br>
 </p>
 
 <p align="center">
-  <img <img src="https://github.com/KristinaGurenkova/PlaidShirts/tree/main/Screenshots/Basket.png">
+  <img <img src="https://github.com/KristinaGurenkova/PlaidShirts/blob/main/Screenshots/Basket.png">
 </br>Корзина
 </br> </br> </br>
 </p>
 
 <p align="center">
-  <img <img src="https://github.com/KristinaGurenkova/PlaidShirts/tree/main/Screenshots/Chek.png">
+  <img <img src="https://github.com/KristinaGurenkova/PlaidShirts/blob/main/Screenshots/Chek.png">
 </br>Чек
 </br> </br> </br>
 </p>
 
 <p align="center">
-  <img <img src="https://github.com/KristinaGurenkova/PlaidShirts/tree/main/Screenshots/Storage.png">
+  <img <img src="https://github.com/KristinaGurenkova/PlaidShirts/blob/main/Screenshots/Storage.png">
 </br>Склад
 </br> </br> </br>
 </p>
 
 <p align="center">
-  <img <img src="https://github.com/KristinaGurenkova/PlaidShirts/tree/main/Screenshots/Hall.png">
+  <img <img src="https://github.com/KristinaGurenkova/PlaidShirts/blob/main/Screenshots/Hall.png">
 </br>Зал
 </br> </br> </br>
 </p>
 
 <p align="center">
-  <img <img src="https://github.com/KristinaGurenkova/PlaidShirts/tree/main/Screenshots/Control.png">
+  <img <img src="https://github.com/KristinaGurenkova/PlaidShirts/blob/main/Screenshots/Control.png">
 </br>Панель управления
 </br> </br> </br>
 </p>
 
 <p align="center">
-  <img <img src="https://github.com/KristinaGurenkova/PlaidShirts/tree/main/Screenshots/log.png">
+  <img <img src="https://github.com/KristinaGurenkova/PlaidShirts/blob/main/Screenshots/log.png">
 </br>Лог-файл
 </br> </br> </br>
 </p>
 
 <p align="center">
-  <img <img src="https://github.com/KristinaGurenkova/PlaidShirts/tree/main/Screenshots/UnitTest.png">
+  <img <img src="https://github.com/KristinaGurenkova/PlaidShirts/blob/main/Screenshots/UnitTest.png">
 </br>Юнит-тестирование DLL
 </br> </br> </br>
 </p>
