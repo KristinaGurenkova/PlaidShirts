@@ -22,8 +22,8 @@
 - **MSTest** - это фреймворк для модульного тестирования в Visual Studio, который предоставляет классы и члены в пространстве имен Microsoft.VisualStudio.TestTools.UnitTesting для написания модульных тестов.
 
 # Описание базы данных:
-#### Файл базы данных называется machines.db <br/>
-Файл базы данных расположен локально в проекте по пути **Machines\Machines\bin\Debug** </br>
+#### Файл базы данных называется checkeredshirts.bacpac <br/>
+Файл базы данных расположен локально в проекте по пути **PlaidShirts\PlaidShirts\bin\Debug** </br>
 В базе данных находятся 7 таблиц _Product_, _Storage_, _Hall_, _Type_, _Manufacturer_, _Basket_, _Order_.
 
 - **Таблица «Product»** _(idProduct, nameProduct, barcode, price, idManufacturer, idType, path, count)_ содержит информацию о товарах
