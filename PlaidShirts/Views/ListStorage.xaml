@@ -1,0 +1,32 @@
+﻿<Window x:Class="PlaidShirts.Views.ListStorage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PlaidShirts.Views"
+        mc:Ignorable="d"
+        Title="ListStorage" Height="450" Width="800" ResizeMode="NoResize">
+    <Grid Background="Beige">
+        <DataGrid Margin="0,64,210,0" x:Name="dataGridProducts" AutoGenerateColumns="False"  Background="Beige" >
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Название" Binding="{Binding Path=Product.nameProduct}" x:Name="nameProduct"/>
+                <DataGridTextColumn Header="Цена" Binding="{Binding Path=Product.price}" x:Name="price"/>
+                <DataGridTextColumn Header="Производитель" Binding="{Binding Path=Product.Manufacturer.nameManufacturer}" x:Name="manufacturer"/>
+                <DataGridTextColumn Header="Тип" Binding="{Binding Path=Product.Type.nameType}" x:Name="type"/>
+                <DataGridTextColumn Header="Кол-во" Binding="{Binding Path=countProduct}" x:Name="count"/>
+                <DataGridTextColumn Header="Баркод" Binding="{Binding Path=Product.barcode}" x:Name="barcode"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <TextBox Background="#1E90FF" HorizontalAlignment="Center" Text=" Склад" VerticalAlignment="Top" Width="800" Height="40" FontSize="22"/>
+        <TextBox Background="#87CEFA" HorizontalAlignment="Center" Text=" Список товаров" VerticalAlignment="Top" Width="800" Height="24" FontSize="15" Margin="0,40,0,0"/>
+        <StackPanel Margin="595,20,0,0">
+            <Button Content="На главную страницу" Margin="0 180 0 0" FontWeight="Bold" x:Name="Back" FontSize="14" Height="30" Width="165" Click="Back_Click">
+                <Button.Resources>
+                    <Style TargetType="{x:Type Border}">
+                        <Setter Property="CornerRadius" Value="10"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+        </StackPanel>
+    </Grid>
+</Window>
